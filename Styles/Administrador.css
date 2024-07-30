@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+.adminsitradorContainer {
+    background-color: rgb(17 24 39);
+}
+
+.adminsitradorContainer .mejorVendedorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: white;
+    padding: 2%;
+    font-family: "Lexend", sans-serif;
+}
+
+.adminsitradorContainer .mejorVendedorContainer .corona {
+    width: 10%;
+    filter: drop-shadow(0px 0px 3px gold);
+}
+
+.adminsitradorContainer .mejorVendedorContainer .mejorVendedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    color: white;
+    padding: 1%;
+    border: solid 1px white;
+    box-shadow: 0 0 10px gold, inset 0 0 10px gold;
+    font-family: "Lexend", sans-serif;
+    text-align: center;
+}
+
+.adminsitradorContainer .mejorVendedorContainer p {
+    color: red;
+    font-size: 150%;
+    font-family: "Lexend", sans-serif;
+}
+
+
+.adminsitradorContainer .mejorVendedorContainer .mejorVendedor .mejorVendedorImg {
+    width: 60%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.adminsitradorContainer .vendedoresCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    padding: 2%;
+}
+
+.adminsitradorContainer .vendedoresCardsContainer .vendedoresCardTodos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: solid 1px white;
+    box-shadow: 0 0 10px white;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 20%;
+    font-family: "Lexend", sans-serif;
+    padding: 1%;
+}
+
+.adminsitradorContainer .vendedoresCardsContainer .vendedoresCardTodos .vendedorImg {
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.adminsitradorContainer .vendedoresCardsContainer .vendedoresCardTodos .vendedorName {
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+}
+
+.adminsitradorContainer .vendedoresCardsContainer .vendedoresCardTodos .vendedorID {
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-size: 100%;
+}
+
+.adminsitradorContainer .vendedoresCardsContainer .vendedoresCardTodos .vendedorButton {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: "Lexend", sans-serif;
+    font-size: 100%;
+}
+
+.controlButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    padding: 2%;
+}
+.controlButtons .buttonsTools {
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: "Lexend", sans-serif;
+    font-size: 100%;
+}
+
+.addVendedorForm{
+    width: 90%;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addVendedorForm h3{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-size: 150%;
+    margin-bottom: 1%;    
+}
+
+.addVendedorForm input{
+    width: 20%;
+    font-family: "Lexend", sans-serif;
+    font-size: 100%;
+    margin-bottom: 1%;    
+}
+
+.addVendedorForm button{
+    width: 20%;
+    font-family: "Lexend", sans-serif;
+    font-size: 100%;
+    margin-bottom: 1%;    
+}
+
+.deleteVendedorForm{
+    width: 90%;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteVendedorForm h3{
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-size: 150%;
+    margin-bottom: 1%;    
+}
+
+.deleteVendedorForm input{
+    width: 20%;
+    font-family: "Lexend", sans-serif;
+    font-size: 100%;
+    margin-bottom: 1%;    
+}
+
+.deleteVendedorForm button{
+    width: 20%;
+    font-family: "Lexend", sans-serif;
+    font-size: 100%;
+    margin-bottom: 1%;    
+}

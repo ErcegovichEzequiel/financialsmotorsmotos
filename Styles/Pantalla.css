@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+.pantallaContainer {
+    background-color: rgb(17 24 39);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pantallaContainer .mejorVendedorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: white;
+    padding: 2%;
+    font-family: "Lexend", sans-serif;
+}
+
+.pantallaContainer .mejorVendedorContainer .corona {
+    width: 10%;
+    filter: drop-shadow(0px 0px 3px gold);
+}
+
+.pantallaContainer .mejorVendedorContainer .vendedoresCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    color: white;
+    padding: 1%;
+    border: solid 1px white;
+    box-shadow: 0 0 10px gold, inset 0 0 10px gold;
+    font-family: "Lexend", sans-serif;
+    text-align: center;
+}
+
+.pantallaContainer .mejorVendedorContainer p {
+    color: red;
+    font-size: 150%;
+    font-family: "Lexend", sans-serif;
+}
+
+
+.pantallaContainer .mejorVendedorContainer .vendedoresCard .mejorVendedorImg {
+    width: 60%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.pantallaContainer .vendedoresCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2%;
+    color: white;
+    font-family: "Lexend", sans-serif;
+}
+
+.pantallaContainer .vendedoresCardsContainer .vendedoresCardTodos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: solid 1px white;
+    box-shadow: 0 0 10px white;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 20%;
+    font-family: "Lexend", sans-serif;
+    padding: 1%;
+}
+
+.pantallaContainer .vendedoresCardsContainer .vendedoresCardTodos .vendedorImg {
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.pantallaContainer .vendedoresCardsContainer .vendedoresCardTodos .vendedorName {
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+}
